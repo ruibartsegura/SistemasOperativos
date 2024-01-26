@@ -1,0 +1,114 @@
+** Comandos Sist. operativos **
+
+* Comandos del Núcleo:
+
+lsmod: escribe en su salida la lista de m´odulos cargados actualmente
+
+modprobe: (necesita parámetro)carga un módulo.
+
+rmmod: descarga un módulo.
+
+modinfo: ofrece información sobre un módulo (autores, licencia, fichero, etc.)
+
+uname -r: versión del kernel
+
+modinfo --filename intel_lpss: ubicación del kernel
+
+* Comandos Normales:
+
+pwd: ver ruta actual
+
+man: manual -> /: busca texto
+
+whatis: descripción rápida
+
+apropos:cuando no nos acordamos del nombre de un comando, pero sí de lo que hace
+
+unicode: ver los caracteres que tiene UTF-8
+
+cd: cambia el directorio actual de la shell.
+
+echo: escribe sus argumentos por su salida.
+
+touch: cambia la fecha de modificación de un fichero. Si no existe el fichero, se crea.
+
+ls: lista el contenido de un directorio.
+
+cp: copia ficheros.
+
+mv: mueve ficheros.
+
+rm: borra ficheros.
+
+mkdir: crea directorios.
+
+rmdir: borra directorios vacíos.
+
+date: muestra la fecha.
+
+who: muestra los usuarios que están en el sistema.
+
+whoami: muestra tu nombre de usuario.
+
+sort: ordena las líneas de un fichero.
+
+wc: cuenta caracteres, palabras y líneas de ficheros.
+
+fgrep, grep: buscan cadenas dentro de ficheros.
+
+cmp, diff: comparan ficheros.
+
+cat: escribe en su salida el contenido de uno o varios ficheros.
+
+less: permite leer un fichero de texto en el terminal usando scroll.
+
+file: da pistas sobre el contenido de un fichero.
+
+od: escribe en su salida el los datos de un fichero en distintos formatos.
+
+head, tail: escriben las primeras o últimas líneas del fichero en su salida.
+
+tar: crea un fichero con múltiples ficheros dentro (comprimidos o no).
+
+gzip, gunzip: comprime y descomprime un fichero.
+
+top: muestra los procesos y el estado de sistema.
+
+reset: restablece el estado del terminal.
+
+exit: la shell termina su ejecución.
+
+export: Para hacer que una variable de la shell pase a ser una variable de entorno
+
+set: variables del shell + entorno
+
+printenv, env: muestra variables del entorno
+
+
+** Uso vim 
+i: pasa a modo inserción si estamos en modo comando. Cuando pulsemos teclas, escribiremos texto en el editor.
+ESC: pasa a modo comando si estamos en modo inserción. Cuando pulsemos teclas, se ejecutarán comandos en el editor, por ejemplo para guardar el fichero, salir del editor, etc
+
+:q! sale del editor sin guardar.
+
+:x salva el fichero y sale (tambi´en se puede con :wq)
+
+:w salva el fichero.
+
+:número se mueve a esa línea del fichero.
+
+i: inserta antes del cursor.
+
+a: inserta después del cursor.
+
+o: inserta en una línea nueva.
+
+dd: corta una línea.
+
+p: pega la línea cortada anteriormente.
+
+h, j, k, l: mueve el cursor a izquierda, abajo, arriba, derecha
+
+** Abreviaciones:
+
+->: "Se puede usar" o "Entonces"
