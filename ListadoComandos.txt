@@ -84,7 +84,21 @@ set: variables del shell + entorno
 
 printenv, env: muestra variables del entorno
 
+--------------------------------------------------------------------------------
+** Uso de C
 
+char soporta 1 byte (-127 - 127)int
+
+int entero con signo no se puede saber cuantos bytes tiene
+
+long int + largo que int (4554465456L), long long int + largo que long (14634531LL)
+
+Variables globales inicializadas a 0.
+
+Las variables locales hay que inicializarlas(darles valor) antes de usarlas, si no tendrán basura.
+
+
+--------------------------------------------------------------------------------
 ** Uso vim 
 i: pasa a modo inserción si estamos en modo comando. Cuando pulsemos teclas, escribiremos texto en el editor.
 ESC: pasa a modo comando si estamos en modo inserción. Cuando pulsemos teclas, se ejecutarán comandos en el editor, por ejemplo para guardar el fichero, salir del editor, etc

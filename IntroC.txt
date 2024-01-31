@@ -1,0 +1,31 @@
+** Uso de C
+
+char soporta 1 byte (-127 - 127)int
+
+int entero con signo no se puede saber cuantos bytes tiene
+
+long int + largo que int (4554465456L), long long int + largo que long (14634531LL)
+
+Variables globales inicializadas a 0.
+
+Las variables locales hay que inicializarlas(darles valor) antes de usarlas, si no tendrán basura.
+
+* Constantes vs inmutables
+
+Inmutable: const c = 12; Ocupan memoria
+
+Constantes enum{Salario = 1;} No tienen porque ocupar memoria
+
+En bit a bit:
+c >> 2; metes dos 0 por la derecha al numero en binario
+c << 3; metes tres 0 por la izq... .
+
+Para depurar usar fprintf(stderr, "... %d(entero)", d )
+Cada %(letra) para cada tipo mirar man
+Compilar:
+gcc -c -Wall -Wshadow -Wvla -g -c Nombre.c
+
+-Wshadow evita que se oculten variables
+
+Enlazado:
+gcc -o hello hello.o
